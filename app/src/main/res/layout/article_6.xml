@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        android:layout_marginTop="37dp"
+        tools:layout_editor_absoluteY="107dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Adjusting to Motherhood"
+                    android:textSize="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/poppins_black"/>
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/article6"
+                    tools:layout_editor_absoluteX="95dp"
+                    android:layout_marginHorizontal="70dp"
+                    tools:layout_editor_absoluteY="182dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Adjusting to everyday life after the birth of a baby has its challenges, especially if you’re a new mother. Although it’s important to care for your baby, you also have to take care of yourself. \n \n
+Most new mothers don’t return to work for at least the first six weeks after birth. This allows time to adapt and develop a new normal. Since a baby has to be fed and changed often, you may experience sleepless nights. It can be frustrating and tiresome. The good news is that you’ll eventually fall into a routine. In the meantime, here’s what you can do for an easier transition: \n \n
+1. Get plenty of rest. Get as much sleep as possible to cope with tiredness and fatigue. Your baby may wake up every two to three hours for feeding. To make sure you’re getting enough rest, sleep when your baby sleeps. \n \n
+2. Seek help. Don’t hesitate to accept help from family and friends during the postpartum period, as well as after this period. Your body needs to heal, and practical help around the home can help you get much-needed rest. Friends or family can prepare meals, run errands, or help care for other children in the home. \n \n
+3. Eat healthy meals. Maintain a healthy diet to promote healing. Increase your intake of whole grains, vegetables, fruits, and protein. You should also increase your fluid intake, especially if you are breast-feeding. \n \n
+4. Exercise. Your doctor will let you know when it’s OK to exercise. The activity should not be strenuous. Try taking a walk near your house. The change of scenery is refreshing and can increase your energy level." />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

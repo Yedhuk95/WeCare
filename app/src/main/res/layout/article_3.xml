@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        android:layout_marginTop="37dp"
+        tools:layout_editor_absoluteY="107dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pregnancy Nutrition Dos and Don'ts"
+                    android:textSize="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/poppins_black"/>
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/article3"
+                    tools:layout_editor_absoluteX="95dp"
+                    android:layout_marginHorizontal="70dp"
+                    tools:layout_editor_absoluteY="182dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Eating right during pregnancy can be confusing. In the next nine months, what you eat, what you drink, how physically active you are and what you weigh all have the potential to affect your child's current and future growth.\n \n
+In fact, a growing body of research finds that conditions in utero (i.e., while you're pregnant) have the potential to affect your child's health even decades down the road. For instance, one study found that women who drink during pregnancy could increase their child's risk of alcohol addiction later in life, even with just one drinking binge. Other studies suggest significant correlations between a mother's nutrition during pregnancy and her child's risk for being overweight and developing diabetes and heart disease later in life.\n \n
+The message? Eat right today and prevent future health problems for your child. \n \n
+There are two components to eating right when you're pregnant. One is the type of food you're eating, and the other is how much weight you gain. \n \n
+For many women, pregnancy is the first time in their lives when gaining weight is a good thing—but don't go overboard. You do not need to consume any more calories than your normal daily intake during your first trimester. After the first 12 weeks, you may consume up to 300 extra calories per day. \n \n
+If you are of normal weight when you get pregnant, you should gain between 25 and 35 pounds: no more than five to 10 pounds in the first 20 weeks, and about a pound per week for the remainder of your pregnancy. If you're overweight when you get pregnant, you should gain only between 15 and 25 pounds. If you're underweight, you should gain 28 to 40 pounds. \n \n
+First, make your diet rich in whole grains, fruits, vegetables and lean protein. Go light on the saturated fat (i.e., red meat and whole-milk dairy) and aim for as few processed foods as possible. Maintain this eating regimen throughout your pregnancy. \n \n
+Don't eat raw or undercooked seafood or meats. Reduce your risk for listeriosis, an illness caused by bacteria found in unpasteurized milk, soft cheese, raw vegetables and shellfish. Wash fruits and vegetables well before eating and thoroughly cook shellfish. Make sure your milk is pasteurized and stick with hard cheeses like cheddar and parmesan. Take your prenatal vitamin daily for the extra iron and folic acid you need throughout your pregnancy (and before). \n \n
+Talk to your health care professional about any special dietary concerns (if you're vegetarian or vegan, for example)." />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

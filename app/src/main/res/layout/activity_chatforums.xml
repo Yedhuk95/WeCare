@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/poppins_black"
+        android:text="Suggested Articles"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="421dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/article1_card"
+                    android:layout_width="375dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/cardview_light_background"
+                    app:cardBackgroundColor="@color/material_dynamic_primary90"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="@font/poppins_black"
+                        android:text="Staying Healthy During Pregnancy"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="349dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Now that you're pregnant, taking care of yourself has never been more important. "
+                        android:textAlignment="center"
+                        android:textSize="12dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/article2_card"
+                    android:layout_width="375dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/cardview_light_background"
+                    app:cardBackgroundColor="@color/material_dynamic_primary90"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="@font/poppins_black"
+                        android:text="Pregnancy Week by Week"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Looking for a week-by-week guide to pregnancy? You're in luck!"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/article3_card"
+                    android:layout_width="375dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/cardview_light_background"
+                    app:cardBackgroundColor="@color/material_dynamic_primary90"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="@font/poppins_black"
+                        android:text="Pregnancy Nutrition Dos and Don'ts"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Get expert advice on eating a healthy diet during pregnancy, and learn what pregnant women should eat."
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/article4_card"
+                    android:layout_width="375dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/cardview_light_background"
+                    app:cardBackgroundColor="@color/material_dynamic_primary90"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="@font/poppins_black"
+                        android:text="What to Take with You to the Hospital"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="A handy list of what to pack. "
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/article5_card"
+                    android:layout_width="375dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/cardview_light_background"
+                    app:cardBackgroundColor="@color/material_dynamic_primary90"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="@font/poppins_black"
+                        android:text="Medication Safety and Pregnancy"
+                        android:textAlignment="center"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="If you're considering pregnancy or are pregnant or breast-feeding, take extra precautions with medications."
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/article6_card"
+                    android:layout_width="375dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/cardview_light_background"
+                    app:cardBackgroundColor="@color/material_dynamic_primary90"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="@font/poppins_black"
+                        android:text="Adjusting to Motherhood"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Although it’s important to care for your baby, you also have to take care of yourself."
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/article7_card"
+                    android:layout_width="375dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/cardview_light_background"
+                    app:cardBackgroundColor="@color/material_dynamic_primary90"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="@font/poppins_black"
+                        android:text="Baby blues vs. Postpartum Depression"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="The baby blues are different from postpartum depression.  Here's all you need to know"
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/article8_card"
+                    android:layout_width="375dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/cardview_light_background"
+                    app:cardBackgroundColor="@color/material_dynamic_primary90"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="@font/poppins_black"
+                        android:text="Body Changes After Giving Birth"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Along with emotional changes, you’ll experience body changes after giving birth."
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/article9_card"
+                    android:layout_width="375dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/cardview_light_background"
+                    app:cardBackgroundColor="@color/material_dynamic_primary90"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="@font/poppins_black"
+                        android:text="Best Postnatal Vitamins and Supplements"
+                        android:textAlignment="center"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Breastfeeding or not, getting the right nutrients postpartum is essential."
+                        android:textAlignment="center"
+                        android:textSize="12sp" />
+                </androidx.cardview.widget.CardView>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

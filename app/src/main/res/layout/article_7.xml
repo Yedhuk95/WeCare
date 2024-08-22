@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        android:layout_marginTop="37dp"
+        tools:layout_editor_absoluteY="107dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Baby Blues vs. Postpartum Depression"
+                    android:textSize="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/poppins_black"/>
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/article7"
+                    tools:layout_editor_absoluteX="95dp"
+                    android:layout_marginHorizontal="70dp"
+                    tools:layout_editor_absoluteY="182dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="It’s normal to have the baby blues during the postpartum period. This typically happens a few days after giving birth and can last for up to two weeks. In most cases, you won’t be experiencing symptoms all the time, and your symptoms will vary. About 70 to 80 percent of new mothers experience mood swings or negative feelings after giving birth. Baby blues are caused by hormonal changes and symptoms may include: unexplained crying, irritability, insomnia, sadness, mood changes, restlessness \n \n
+The baby blues are different from postpartum depression. Postpartum depression occurs when symptoms last for more than two weeks. \n \n
+Additional symptoms may include feelings of guilt and worthlessness, and loss of interest in daily activities. Some women with postpartum depression withdraw from their family, have no interest in their baby, and have thoughts of hurting their baby. \n \n
+Postpartum depression requires medical treatment. Speak with your doctor if you have depression that lasts longer than two weeks after giving birth, or if you have thoughts of harming your baby. Postpartum depression can develop at any time after giving birth, even up to a year after delivery." />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

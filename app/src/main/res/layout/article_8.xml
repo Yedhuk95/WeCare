@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        android:layout_marginTop="37dp"
+        tools:layout_editor_absoluteY="107dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Coping with Bodily Changes"
+                    android:textSize="40dp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/poppins_black"/>
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/article2"
+                    tools:layout_editor_absoluteX="95dp"
+                    android:layout_marginHorizontal="70dp"
+                    tools:layout_editor_absoluteY="182dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Along with emotional changes, you’ll experience body changes after giving birth, such as weight gain. Weight loss doesn’t happen overnight, so be patient. Once your doctor says it’s OK to exercise, begin with moderate activity a few minutes a day and gradually increase the length and intensity of your workouts. Go for a walk, swim, or join an aerobics class. \n \n
+Losing weight also involves eating healthy, balanced meals that include fruits, vegetables, and whole grains. Every new mother loses weight at a different pace, so don’t compare your weight loss efforts to others. Breast-feeding can help you return to your prepregnancy weight faster because it increases your daily calorie burn. \n \n
+Talk to your doctor if you have questions or concerns about changes to your body during the postpartum period. \n \n
+Other body changes include: \n
+Your breasts will fill with milk a couple of days after birth. This is a normal process, but the swelling (engorgement) can be uncomfortable. Engorgement improves with time. To ease discomfort, apply a warm or cold compress to your breasts. Sore nipples from breast-feeding usually disappear as your body adjusts. Use nipple cream to soothe cracking and pain. \n \n
+Eat high-fiber foods to stimulate bowel activity, and drink plenty of water. Ask your doctor about safe medications. Fiber can also relieve hemorrhoids, as well as over-the-counter creams or sitting in a sitz bath. Drinking water helps ease problems with urinating after birth. If you experience incontinence, Kegel exercises can strengthen your pelvic muscles. \n \n
+The area between your rectum and vagina is known as the perineum. It stretches and often tears during birth. Sometimes a doctor will cut this area to help your labor. You can help this area recover after your delivery by doing Kegel exercises, icing the area with cold packs wrapped in towels, and sitting on a pillow. \n \n
+Hormonal changes can cause nighttime sweating after having a baby. Remove blankets from your bed to stay cool. \n \n
+A shrinking uterus after giving birth can cause cramping. The pain subsides in time. Ask your doctor about safe pain medications. \n \n
+Vaginal discharge is typical two to four weeks after giving birth. This is how your body eliminates blood and tissue from your uterus. Wear sanitary napkins until the discharge stops.
+
+Do not use tampons or douche until your four to six week postpartum appointment, or until your doctor approves it. Using these products in the immediate postpartum period may increase your risk of uterine infection. If your vaginal discharge is foul-smelling, notify your doctor. You may continue to have bloody spotting for your first week postpartum, but heavy bleeding is not expected. If you are experiencing heavy vaginal bleeding, such as saturating one sanitary pad within two hours, contact your doctor." />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

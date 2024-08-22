@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        android:layout_marginTop="37dp"
+        tools:layout_editor_absoluteY="107dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/poppins_black"
+                    android:text="What to Take with You to the Hospital"
+                    android:textAlignment="center"
+                    android:textSize="40dp" />
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/article4"
+                    tools:layout_editor_absoluteX="95dp"
+                    android:layout_marginHorizontal="70dp"
+                    tools:layout_editor_absoluteY="182dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="When it's time to deliver, technically you don't really need anything but a ride to the hospital or birthing center. However, for a more comfortable experience, it can be helpful to have some personal items on hand. Make sure to pack your things before your due date to avoid scrambling at the last moment. For your labor and delivery needs, your bag should be no larger than a medium-sized gym bag. Larger bags with additional supplies can stay in the car until the postpartum period." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/poppins_black"
+                    android:text="For Mom's Comfort: \n"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Your birth plan, if you have one. \n
+Lip balm: Your lips may get extremely dry, as you are usually unable to drink large amounts of fluids during labor. Hard candies are also helpful for dry mouth.\n
+Men's crew socks: With your temperature fluctuating, you may want socks, but you do not want ones that have a lot of elasticity and cut into swollen feet. \n
+Light knee-length robe or loose pajamas: It's smart to have something to cover your back (those hospital gowns don't go all the way around!). This is especially helpful if you are able to walk through the early stages of labor. \n
+Slippers: Dress your feet for walking the halls in the early stages for labor. As an alternative, some women may prefer clogs, for the arch support. Bring slippers that you can throw away or wash to rid of any hospital germs.\n
+Toiletries: A toothbrush, hairbrush and deodorants are essential, and if you prefer your own to the hospital's, bring shampoo, lotion and soap. \n
+Change of clothes and flat shoes: Bring something clean and comfortable to go home in (including extra underwear). Remember, you will likely still look five or six months pregnant when leaving the hospital, so leave your pre-pregnancy skinny jeans at home and pack a loose-fitting outfit.\n
+An outfit and blanket for the baby to go home in."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/poppins_black"
+                    android:text="For Dad or Partner: \n"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Insurance card, identification and any necessary paperwork. \n
+Snacks: Don't rely on hospital food; bring your own crackers, raisins and granola bars. Make sure to pack snacks without strong smells, as Mom's stomach may not be able to handle it at this time.\n
+Portable music player with small speakers or headphones: This can be a calming distraction for Mom during contractions. Or Dad can put on his headphones if she is able to nap.\n
+"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

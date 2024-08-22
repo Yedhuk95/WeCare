@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/poppins_black"
+                    android:text="Postnatal Vitamins and Supplements"
+                    android:textAlignment="center"
+                    android:textSize="40dp" />
+
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_marginHorizontal="70dp"
+                    app:srcCompat="@drawable/article9"
+                    tools:layout_editor_absoluteX="95dp"
+                    tools:layout_editor_absoluteY="182dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="If you’re like many new birthing parents, every part of you is letting you know just how much energy and effort you spent bringing a baby into the world. Your body has produced another human being and has drawn heavily on your nutrient stores to do so.
+Part of your postpartum plan for self-care should be nourishing your body by following a nutrient-dense diet and replenishing lost nutrients through supplementation. Keep reading for our picks of the best postnatal vitamins. \n \n
+Best overall postnatal vitamin: FullWell Prenatal Multivitamin \n \n
+Best if you already eat a balanced diet: Ritual Postnatal Vitamin \n \n
+Best vegetarian postnatal vitamin: MegaFood Baby and Me 2 Postnatal Vitamin \n \n
+Best protein powder for breastfeeding: Majka Plant-Based Nourishing Lactation Powder \n \n
+Best postnatal omega-3 supplement: Nordic Naturals Postnatal Omega-3 Softgels \n \n
+Best budget-friendly postnatal vitamin: Nature Made Postnatal Multi + DHA Softgels \n \n
+Best gummy postnatal: Smarty Pants Prenatal Formula Gummies \n \n
+Best powder postnatal: Needed Prenatal Multi Powder \n \n"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

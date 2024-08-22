@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WeCare</string>
+    <string name="fab_content_description1">Go Back</string>
+    <string name="fab_content_description2">Go Back</string>
+    <string name="fab_content_description3">Go Back</string>
+    <string name="fab_content_description4">Go Back</string>
+    <string name="fab_content_description5">Go Back</string>
+    <string name="fab_content_description6">Go Back</string>
+    <string name="fab_content_description7">Go Back</string>
+    <string name="fab_content_description8">Go Back</string>
+    <string name="fab_content_description9">Go Back</string>
+    <string name="select_exercise_type">Select Exercise Type</string>
+    <string-array name="exercise_types">
+        <item>Cardio</item>
+        <item>Stretching</item>
+        <item>Strength</item>
+    </string-array>
+    <string name="select_muscle_group">Select Muscle Group</string>
+    <string-array name="muscle_groups">
+        <item>Abdominals</item>
+        <item>Lower Back</item>
+        <item>Glutes</item>
+        <item>Biceps</item>
+    </string-array>
+</resources>
